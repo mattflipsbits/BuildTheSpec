@@ -1,4 +1,4 @@
-# BuildTheSpec
+# Build the Spec
 Build the Spec is a series of microcontroller (MCU) challenges intended to supplement a traditional beginner-to-intermediate MCU programming course.
 
 Specifications are given for each project, and it is up to the student to implement the specification using the MCU of their choice.
