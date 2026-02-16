@@ -1,8 +1,8 @@
 HELLO WORLD
 
 - Transmit the message "HELLO WORLD" using an LED.
-- The message must comply with the transmission recommendations
-  outlined in ITU-R M.1667-1
+- The message must comply with the transmission recommendations outlined in
+  ITU-R M.1667-1
 - Upon reset or startup, the starting signal should be transmitted exactly once
 - Following the starting signal, the main message "HELLO WORLD" should repeat
   indefinitely. NOTE: quotation marks serve only as a delimiter, and are
