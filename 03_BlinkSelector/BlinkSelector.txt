@@ -1,0 +1,20 @@
+BLINK SELECTOR
+
+- The system consists of two momentary switch and three LEDs: red,
+  green, and blue.
+- Exactly one LED must be active at a time, and when active,
+  must toggle at one of four frequencies: 1Hz, 1.33Hz, 2Hz, or 4Hz.
+- One momentary switch is used to select the active LED.
+- One momentary switch is used to select the toggle frequency.
+- The LED selector switch should cycle the active LED in the following
+  order: RED -> GREEN -> BLUE in a repeating pattern.
+- For each press of the LED selector switch, the active LED should
+  advance exactly one step in the cycle.
+- The frequency selector switch should cycle the toggle frequency in
+  the following order: 1Hz -> 1.33Hz -> 2Hz -> 4Hz in a repeating
+  pattern.
+- For each press of the frequency selector switch, the toggle frequency
+  should advance exactly one step in the cycle.
+- All switch effects should occur on-press, not on-release.
+- All switch effects should occur immediately, i.e. there must be no
+  blocking behavior observed.
