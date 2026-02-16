@@ -1,0 +1,16 @@
+SOS
+
+- The system consists of two states: an all-clear state, indicated by a green LED,
+  and an SOS state, indicated by a red LED.
+- Switching between states occurs using a momentary switch.
+- All-Clear State: Occurs when the momentary switch is not activated. The green
+  LED cycles from full-brightness to half-brightness then returns to full-brightness.
+  The full cycle should take 10 seconds and occur evenly, i.e. 5 seconds to dim to
+  half-brightness and 5 seconds to return to full-brightness. The red LED is not
+  illuminated during the all-clear state.
+- SOS state: Occurs when the momentary switch is activated. The red LED transmits
+  the "SOS" message following the ITU-R M.1667-1 recommendations. The message
+  should repeat as long as the momentary switch is activated. If the momentary
+  switch is deactivated while the "SOS" message is being transmitted, the message
+  must be allowed to complete before returning to the all-clear state. The green
+  LED is not illuminated during the SOS state.
