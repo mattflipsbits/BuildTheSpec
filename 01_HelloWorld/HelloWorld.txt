@@ -1,6 +1,6 @@
 HELLO WORLD
 
-- Transmit the message "HELLO WORLD" using an LED.
+- Transmit the message "HELLO WORLD" in Morse code using an LED.
 - The message must comply with the transmission recommendations outlined in
   ITU-R M.1667-1
 - Upon reset or startup, the starting signal should be transmitted exactly once
