@@ -1,6 +1,6 @@
 BLINK SELECTOR
 
-- The system consists of two momentary switch and three LEDs: red,
+- The system consists of two momentary switches and three LEDs: red,
   green, and blue.
 - Exactly one LED must be active at a time, and when active,
   must toggle at one of four frequencies: 1Hz, 1.33Hz, 2Hz, or 4Hz.
